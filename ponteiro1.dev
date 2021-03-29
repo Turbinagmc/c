@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	
+	int x = 15;
+	int *px;
+	
+	px = &x;
+	
+	
+	printf("endereço de x = %p", &x);
+	printf("conteudo de x  por meio do ponteiro px= %d", *px);
+	printf("endereço da variavel px = %p", &px);
+	printf("endereço de px = %p", &px);
+	
+	return 0;
+}
